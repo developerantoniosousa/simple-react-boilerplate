@@ -3,7 +3,8 @@
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development",
     "typescript": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "check-format": "prettier . --check"
   },
   "dependencies": {
     "react": "^18.2.0",
