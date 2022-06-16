@@ -2,7 +2,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development",
-    "typescript": "tsc --noEmit"
+    "typescript": "tsc --noEmit",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.2.0",
