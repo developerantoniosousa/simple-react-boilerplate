@@ -13,4 +13,7 @@ parserOptions:
 plugins:
   - react
   - prettier
+settings:
+  react:
+    version: detect
 rules: { prettier/prettier: error }
